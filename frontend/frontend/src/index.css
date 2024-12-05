@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 153, 0, 0.619);
+  display: flex;
+  flex-direction: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  height: 150px;
+  width: 100%;
+  background-image: url("./imgs/Anime_background_light_purple.jpeg");
+  background-size: cover;
+}
+
+.title{
+  text-align: center;
+  color: rgb(255, 153, 0);
+  font-size: xx-large;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.home{
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+
+.work{
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+
+.artist{
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+
+.about{
+  display: flex;
+  text-align: center;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 5em;
+}
+
+.request{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+  background-color: rgba(253, 5, 166, 0.403);
+  border-radius: 1em;
+}
+
+.email{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1em;
+}
+
+input{
+  text-align: center;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+}
+
+.image{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+
+.submit{
+  width: 5em;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.aboutReq{
+  text-align: center;
+  width: 50em;
+  margin: auto;
+  padding: 3em;
+}
+
+.descrip{
+  height: 5em;
+  text-align: center;
+}
+
+.reference{
+  height: 2em;
+  width: 100%;
+}
+
+.mail{
+  height: 2em;
+  width: 100%;
+  text-align: center;
+}
+
+.refMail{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 5em;
+}
+
+.icon{
+  font-size: xx-large;
+  position: absolute;
+  margin-left: 90%;
+}
+
+h5{
+  display: flex;
+}
+
+span{
+  margin-top: 1em;
+}
